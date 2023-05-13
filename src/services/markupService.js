@@ -3,3 +3,7 @@ export function createProductsMarkup(dataProducts) {
     return markup + `<h2>${title}</h2><p>${description}</p><p>${price}</p>`;
   }, "");
 } 
+
+export function createProductMarkup({ title, description, price }) {
+  return `<h2>${title}</h2><p>${description}</p><p>${price}</p>`;
+};
